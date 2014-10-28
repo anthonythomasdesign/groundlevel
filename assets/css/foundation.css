@@ -1,0 +1,80 @@
+/* DOCUMENT INFORMATION
+	- Document: Ground Level CSS
+	- Version:  1.0.0
+	- Author:   A. Thomas
+*/
+
+/* CSS DIRECTORY
+	1. GLOBAL SETTINGS
+	2. PRIMARY SETTINGS
+	3. HEADER SETTINGS
+	4. SIDEBAR SETTINGS
+	5. FOOTER SETTINGS
+*/
+
+
+
+/* ======================================================================================================= */
+/* === GLOBAL SETTINGS === */
+    /* Axiomatic CSS and Lobotomized Owls */
+    /* Or more simply put self aware elements */
+
+* + * {
+    margin-top: 1.5em;
+}
+
+
+/* === PRIMARY SETTINGS === */
+    /* COLORS
+    	- default body text  #ffffcc
+    	- subtitle h2 text   #ff9900
+    	- form input borders #cc9933
+    	- default p text     #f0f0f0
+    	- pre borders        #ffff99
+    */
+
+    /* FONTS
+    	- default body text  Arial, Helvetica Neue, Helvetica, sans-serif
+    	- subtitle h2 text   Garamond, Hoefler Text, Times New Roman, Times, serif
+    	- form input text    Cambria, Georgia, Times, Times New Roman, Times, serif
+    	- default p text     Copperplate Light, Copperplate Gothic Light, serif
+    	- pre and code       Consolas, Lucida Console, Monaco, monospace
+    */
+
+    /* GRID SYSTEMS */
+
+/* === HEADER SETTINGS === */
+/* === SIDEBAR SETTINGS === */
+/* === FOOTER SETTINGS === */
+
+
+
+
+
+
+
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+
+
+
+
+
+p + p {
+    margin-top: 0;
+}
+
+
+
+/* Modules */
+.compact * + * {
+    margin-top: 0.75em;
+}
+
+.margins-off > * {
+    margin-top: 0;
+}
